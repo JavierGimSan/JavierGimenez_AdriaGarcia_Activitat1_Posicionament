@@ -1,0 +1,46 @@
+.body{ /*Apliquem un margin i padding 0 perque no hi hagi espais*/
+margin: 0;
+padding: 0;}
+
+.header{
+text-align: center; /*Al header, definim que el text estigui centrat*/
+background-color: grey; /*que el color de fons sigui gris*/
+position: fixed; /*que estigui fixat a dalt de tot*/
+top:0; /*que no hi hagi espai a la part superior*/
+width: 100vw;} /*i que l'amplada sigui de 100vw*/
+
+.navSection { /*A la barra de navegació posem el text centrat, color de fons gris, lletra en blanc i la posició sticky*/
+text-align: center;
+background-color: grey;
+color: white;
+position: sticky; /*Tot i que fem scroll, la barra es mantindrà visible a la mateixa posició*/
+}
+
+#seccio1{ /* Amb aquests paràmetres ajustem els marges, el farçit i el color de fons*/
+margin: 130px 30px 500px 30px;
+padding: 30px 30px 30px 30px;
+background-color: #C9C9C9;
+scroll-margin-top: 130px;/*Amb aquesta funció, quan cliquem a la secció a la navbar, evitem que se la mengi*/
+}
+
+img{
+width: 300px;
+height: auto;}
+
+#seccio2{
+margin: 500px 30px 500px 30px;
+padding: 30px 30px 30px 30px;
+background-color: #C9C9C9;
+scroll-margin-top: 130px;}
+
+#seccio3{
+margin: 500px 30px 700px 30px;
+padding: 30px 30px 30px 30px;
+background-color: #C9C9C9;
+scroll-margin-top: 130px;}
+
+#footer{ /*Definim el peu de pàgina centrat al mig, amb color de lletra blanc, fons gris i farçit 1.5 punts en relació amb el tamany de la lletra*/
+text-align: center;
+color: white;
+background-color: grey;
+padding: 1.5em}
